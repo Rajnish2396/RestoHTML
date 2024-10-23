@@ -6,6 +6,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   overflow-x: hidden !important;
 }
@@ -139,8 +140,13 @@ body {
   text-align: center;
   color: #0b5360;
   margin-top: 6px;
+  width:100%;
 }
+input[type="datetime-local"] {
 
+  
+
+}
 /* form */
 .form-container {
   display: flex;
@@ -178,13 +184,13 @@ input[type="datetime-local"] {
   margin-left: 20px;
 }
 
-input[type="radio"] {
-  margin-right: 5px;
-}
 
 button {
   color: #0b5360;
   border: none;
+  display:flex;
+  align-items:center;
+  justify-content:center;
   padding: 10px;
   font-size: 16px;
   cursor: pointer !important;
@@ -471,6 +477,9 @@ button {
 }
 
 @media (min-width: 481px) and (max-width: 992px) {
+  
+
+  
   .first-svg{
     bottom:-23px;
   }
@@ -727,3 +736,24 @@ button {
     color: #fff;
   }
 }
+
+
+@media (min-width: 200px) and (max-width: 992px) {
+  
+  #dateTime{
+    position: relative;
+  }
+  #dateTime::before{
+    content: ' ';
+    width: 17px;
+    height: 19px;
+    background: url(./calendar.svg) #fff;
+    color: #fff;
+    /* height: 10px; */
+    position: absolute;
+    z-index: 10;
+    top: 12px;
+    right: 13px;
+  }
+  }
+  
