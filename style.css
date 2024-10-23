@@ -747,12 +747,19 @@ button {
 
 @media (min-width: 200px) and (max-width: 992px) {
   .formField{
-    background:#fff;
-    margin-bottom:20px;
+    background: #fff;
+    margin-bottom: 20px;
+    padding-right: 15px;
+    border: 1px solid #d4307c;
+    box-shadow: -4px 4px 0px 0px #d4307c;
+    height: 48px;
+    width: 100%;
 
   }
   .formField input{
     background:none;
+    border:none;
+    box-shadow:none;
     margin-bottom:0px;
   }
   #dateTime{
