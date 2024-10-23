@@ -423,6 +423,7 @@ button {
     font-size: 12px !important;
     margin-top: 0px !important;
     margin-bottom: 17.45px !important;
+    width:100%;
   }
 
   .form-container {
@@ -681,6 +682,7 @@ button {
     font-size: 16px !important;
     margin-top: 12px;
     margin-bottom: 29.12px;
+    width:100%;
   }
   form {
     display: block;
