@@ -743,7 +743,7 @@ button {
 @media (min-width: 200px) and (max-width: 992px) {
   
   #dateTime{
-    position: relative;
+    position: relative ; 
     background:#fff;
   }
   #dateTime::before{
