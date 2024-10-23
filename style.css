@@ -741,11 +741,20 @@ button {
 
 
 @media (min-width: 200px) and (max-width: 992px) {
-  
+  .formField{
+    background:#fff;
+    margin-bottom:20px;
+
+  }
+  .formField input{
+    background:none;
+    margin-bottom:0px;
+  }
   #dateTime{
     position: relative ; 
-    background:red;
+    background:none;
     padding-left:15px ;
+    margin-bottom:0;
   }
   #dateTime::before{
     content: ' ';
