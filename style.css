@@ -745,6 +745,7 @@ button {
   #dateTime{
     position: relative ; 
     background:#fff;
+    padding-left:15px;
   }
   #dateTime::before{
     content: ' ';
