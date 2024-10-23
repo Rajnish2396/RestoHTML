@@ -610,6 +610,9 @@ button {
   .desktop {
     display: none !important;
   }
+  .contact.mobile {
+    margin-top: 15px !important;
+}
   .mobile {
     display: block !important;
   }
