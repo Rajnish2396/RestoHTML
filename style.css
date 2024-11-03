@@ -103,10 +103,10 @@ body {
 }
 
 .third-container {
-  background-image: url("./3.png");
+  background-image: url(./3.png);
   width: 48px;
-  background-size: cover;
-  box-shadow: 4px 4px 4px 0px #00000029;
+  /* background-size: cover; */
+  box-shadow: 3px 3px 4px 0px #00000029;
   z-index: 1;
 }
 
@@ -128,8 +128,10 @@ body {
   text-align: center;
 }
 .second-container h2 small{
-  font-size:16px;
-  display: block;
+  font-size: 17px;
+  display: flex;
+  gap: 13px;
+  padding-top: 5px;
 }
 
 .slogan {
@@ -178,7 +180,7 @@ input[type="datetime-local"] {
   padding: 10px;
   border: 1px solid #d4307c;
   outline: none;
-  font-size: 12px;
+  font-size: 11px;
   box-shadow: -4px 4px 0px 0px #d4307c;
   font-family: "Quicksand", sans-serif;
   margin-left: 20px;
