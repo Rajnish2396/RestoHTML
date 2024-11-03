@@ -730,6 +730,7 @@ button {
     margin-left:0;
   }
   button {
+    background:#fff;
     position: relative;
     left:0;
     padding: 0;
