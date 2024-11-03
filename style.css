@@ -132,6 +132,8 @@ body {
   display: flex;
   gap: 13px;
   padding-top: 5px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .slogan {
@@ -664,12 +666,13 @@ button {
   }
   /* second section */
   .third-container {
-    background-image: url("./4.png");
-    height:63px;
-    box-shadow: 0px 4px 4px 0px #00000029;
+    background-image: url(./4.png);
+    height: 49px;
+    box-shadow:0px 4px 4px 0px rgb(0 0 0 / 16%);
     width: 100%;
-    background-size: cover;
+    /* background-size: cover; */
     z-index: 100;
+    position: relative;
   }
 
   /* third section  */
